@@ -1,0 +1,26 @@
+.game-container {
+  flex-wrap: wrap; /* Add this to make the game options wrap to the next line on smaller screens */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(C:\Users\amuly\Downloads\2back.jpg); /* Add background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    text-align: center;
+    padding-top: 50px; /* Adjust as needed */
+}
+
+.game-option {
+  width: 40%; /* Set a width for each game option */
+  margin: 20px; /* Add some margin around each game option */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.game-link {
+  transition: color 0.2s ease; /* Add a transition effect to the link color */
+}
+
+.game-link:hover {
+  color: #0066cc; /* Change the link color on hover */
+}
